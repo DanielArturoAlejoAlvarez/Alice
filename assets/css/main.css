@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:100,300,400,60,700);
+
+
+body {
+    background: #f6f6f8;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+}
+
+a {
+    color: inherit;
+    text-decoration: none!important;
+    transition: all .3s cubic-bezier(.60,.100,.35,.025);
+}
+
+a:hover {
+    color: inherit!important;
+}
+
+h5 {
+    line-height: 2!important;
+}
+
+
+
+.clearfix::after,
+.clearfix::before {
+    display: table;
+    content: "";
+    padding: 10px;
+}
+
+.upper {
+    text-transform: uppercase!important;
+}
+
+.navbar {
+    background-image: linear-gradient(
+        #666,#333
+    );
+    text-transform: uppercase;
+    box-shadow: 0px 4px 16px rgba(0,0,0,.4);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+    transition: all .3s cubic-bezier(.60,.100,.35,.025);
+    font-weight: 600!important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: tomato!important;
+}
+
+.navbar-brand,.navbar-brand:hover {
+    color: white!important;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: none!important;
+    color: #f7d920!important;
+}
+
+.buttons {
+    position: absolute;
+    top: 110px;
+    right: 100px;
+}
+@media(max-width: 640px){
+    .buttons {
+        position: absolute;
+        top: 110px;
+        right: 15px;
+    }  
+}
+.buttons-actions {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.pagination-links {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pagination-links strong {
+    margin: 5px;
+    padding: 2px 9px;
+    color: #ccc!important;
+    background: #e20a0a!important;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+
+a.pagination-link {
+    margin: 5px;
+    padding: 2px 9px;
+    color: #ccc!important;
+    background: #999;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+a:hover.pagination-link {
+    color: white!important;
+    background: #e20a0a!important;
+}
+
+.card {
+    box-shadow: 0px 2px 4px rgba(0,0,0,.02);
+}
+
+span.be-red {
+    color: rgb(225, 15, 50)!important;
+    font-weight: bold!important;
+}
+
+.msg-comment a {
+    color: rgb(225, 15, 50)!important;
+}
+
+.imgUser {
+    border-radius: 50%!important;
+    border: 1px solid #333;
+    box-shadow: 0px 4px 16px rgba(0,0,0,.3);
+    max-width: 85px;
+    max-height: 85px;
+}
+
+
+
+.all-comments {
+    font-size: 14px!important;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    
+}
+
+.upper {
+    text-transform: uppercase!important;
+}
